@@ -40,7 +40,7 @@ a:hover {
 
 html,
 body {
-  height: 100%;
+  height: 1024px;
   width: 100%;
   font-size: 15px;
   line-height: 25px;
@@ -77,13 +77,16 @@ img {
 }
 .bg {
   width: 100%;
-  height: 100%;
-  background: url("img/hero-back.png") no-repeat center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+}
+
+.hero-bg {
+  background: url("img/hero-back.png") no-repeat center center;
   padding: 264px 0;
+  height: 100%;
 }
 
 .hero {
@@ -98,19 +101,26 @@ img {
 
 .navbar {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
+  gap: 40px;
   font-weight: 500;
   padding: 33px 60px;
 }
 
 .navbar__logo {
+  width: 259px;
+}
+
+.navbar__logo-pic {
 }
 
 .navbar-items__item {
   padding-bottom: 5px;
   white-space: nowrap;
   position: relative;
+  display: inline;
+  line-height: 40px;
 }
 
 .navbar-items__item:hover {
@@ -119,13 +129,7 @@ img {
 }
 
 .navbar-items {
-  font-size: 16px;
-  margin: 0 20px;
-}
-
-.navbar-items__item {
-  display: inline;
-  line-height: 40px;
+  font-size: 80%;
 }
 
 .navbar-items__item:not(:last-child) {
@@ -169,8 +173,15 @@ img {
   margin: 41 auto;
 }
 
-.hero__image {
-  margin-top: 150px;
+.hero__image-block {
+  margin-top: -40%;
+  margin-bottom: 184px;
+  width: 100%;
   display: flex;
   justify-content: center;
+  background-color: transparent;
+}
+
+.hero__image {
+  width: 90%;
 }

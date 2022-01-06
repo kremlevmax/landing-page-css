@@ -107,15 +107,25 @@ img {
 .navbar__logo {
 }
 
-.navbar__navbar-items {
+.navbar-items__item {
+  padding-bottom: 5px;
+  white-space: nowrap;
+  position: relative;
+}
+
+.navbar-items__item:hover {
+  border-bottom: 4px solid #ffffff;
+  top: -2px;
 }
 
 .navbar-items {
   font-size: 16px;
+  margin: 0 20px;
 }
 
 .navbar-items__item {
   display: inline;
+  line-height: 40px;
 }
 
 .navbar-items__item:not(:last-child) {
@@ -130,12 +140,13 @@ img {
   border-radius: 50px;
   text-transform: uppercase;
   cursor: pointer;
-  width: 200px;
+  min-width: 200px;
+  inline-size: 200px;
+  white-space: nowrap;
 }
 
 .button:hover {
-  color: #ffffff;
-  background-color: #53b6fe;
+  box-shadow: rgba(255, 254, 254, 0.297) 0px 7px 29px 0px;
 }
 
 .hero__title {
@@ -160,5 +171,6 @@ img {
 
 .hero__image {
   margin-top: 150px;
-  text-align: center;
+  display: flex;
+  justify-content: center;
 }

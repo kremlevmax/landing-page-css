@@ -80,13 +80,14 @@ img {
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
-  background-size: cover;
+  background-size: auto 100%;
 }
 
 .hero-bg {
-  background: url("img/hero-back.png") no-repeat center center;
+  background: url("img/hero/hero-back.png") no-repeat center center;
   padding: 264px 0;
   height: 100%;
+  background-size: auto 100%;
 }
 
 .hero {

@@ -201,6 +201,14 @@ img {
   background-size: 100% 100%;
 }
 
+.what-you-get__title {
+  color: #00a077;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 12px;
+  opacity: 50%;
+}
+
 .what-you-get__subtitle {
   color: #3b3e43;
   font-size: 48px;

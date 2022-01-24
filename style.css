@@ -79,9 +79,8 @@ img {
 }
 
 .container {
-  margin: 0 5% 0 15%;
+  margin: 0 10% 0 10%;
   height: fit-content;
-  justify-content: center;
 }
 
 .bg {
@@ -168,6 +167,7 @@ img {
   font-size: 62px;
   font-weight: 500;
   line-height: 88px;
+  margin: 0 150px;
 }
 
 .hero__subtitle {
@@ -228,7 +228,7 @@ img {
   display: flex;
   gap: 30px;
   flex-wrap: wrap;
-  justify-content: center;
+  justify-content: space-evenly;
 }
 
 .what-you-get_cards-card {
@@ -236,11 +236,15 @@ img {
   background-color: #ffffff;
   border-radius: 15px;
   padding: 40px 15px 0 45px;
-  width: 30%;
 }
 .card {
   min-width: 300px;
   max-width: 30%;
+}
+@media screen and (max-width: 787px) {
+  .card {
+    max-width: 100%;
+  }
 }
 
 .card__icon {
@@ -354,4 +358,49 @@ img {
   font-weight: normal;
   font-size: 14px;
   line-height: 24px;
+}
+
+.brands {
+  margin-top: 184px;
+  text-align: center;
+}
+
+.brands__title {
+  text-transform: uppercase;
+  color: #00a077;
+  font-size: 12px;
+  line-height: 122%;
+  opacity: 0.5;
+  margin-bottom: 24px;
+}
+
+.brands__subtitle {
+  color: #3b3e43;
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 122%;
+}
+
+.brands__logos {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 32px;
+  gap: 5%;
+}
+
+.brands__logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-width: 5%;
+}
+
+.brands__footer-text {
+  color: #3b3e43;
+  font-size: 16px;
+  line-height: 148%;
+  width: 400px;
+  margin: 62px auto;
+  padding-bottom: 180px;
 }

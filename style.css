@@ -566,10 +566,12 @@ img {
   width: 176px;
   height: 40px;
 }
+
 .footer__links {
   display: flex;
   justify-content: space-between;
   width: 620px;
+  opacity: 0.8;
 }
 
 .footer__social-media-links {
@@ -585,12 +587,17 @@ img {
   justify-content: space-between;
   align-items: center;
 }
+
 .footer_copyright {
+  opacity: 0.8;
 }
+
 .footer__privacy-links {
   display: flex;
   justify-content: space-between;
   gap: 24px;
 }
+
 .footer__privacy-link {
+  opacity: 0.8;
 }

@@ -550,20 +550,47 @@ img {
 }
 
 .footer {
+  background-color: #0d0d0d;
+  height: fit-content;
 }
+
 .footer__navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  line-height: 80px;
+  border-bottom: 1px solid #ffffff;
 }
+
 .footer__logo {
+  width: 176px;
+  height: 40px;
 }
 .footer__links {
+  display: flex;
+  justify-content: space-between;
+  width: 620px;
 }
+
 .footer__social-media-links {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100px;
 }
+
 .footer__credentials {
+  line-height: 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 .footer_copyright {
 }
 .footer__privacy-links {
+  display: flex;
+  justify-content: space-between;
+  gap: 24px;
 }
 .footer__privacy-link {
 }

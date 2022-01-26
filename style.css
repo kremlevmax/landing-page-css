@@ -582,6 +582,30 @@ img {
   width: 300px;
 }
 
+@media only screen and (max-device-width: 480px) {
+  .start-working__title {
+    font-size: 24px;
+  }
+
+  .start-working__left-right {
+    flex-direction: column-reverse;
+    gap: 20px;
+  }
+
+  .start-working__left {
+    align-items: center;
+    gap: 30px;
+  }
+
+  .start-working__subtitle {
+    width: auto;
+    text-align: center;
+  }
+  .start-working__desc {
+    margin-bottom: 40px;
+  }
+}
+
 .footer {
   background-color: #0d0d0d;
   height: fit-content;

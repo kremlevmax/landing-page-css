@@ -74,10 +74,6 @@ img {
   vertical-align: top;
 }
 
-._container {
-  max-width: 1667px;
-}
-
 .container {
   max-width: 1170px;
   padding: 0 50px;
@@ -93,11 +89,21 @@ img {
   background-size: auto 100%;
 }
 
+.title {
+  margin-bottom: 12px;
+}
+
+.title__center {
+  padding-top: 160px;
+  text-align: center;
+}
+
 .title__green {
   color: #00a077;
   text-transform: uppercase;
   font-weight: 700;
   font-size: 12px;
+  line-height: 122%;
   opacity: 50%;
 }
 
@@ -112,12 +118,10 @@ img {
 @media only screen and (max-device-width: 480px) {
   .title__green {
     font-size: 24px;
-    margin-bottom: 50px;
   }
 
   .title__white {
     font-size: 24px;
-    margin-bottom: 50px;
   }
 }
 
@@ -132,6 +136,9 @@ img {
   font-size: 48px;
   font-weight: 500;
   line-height: 60px;
+}
+
+.subtitle__center {
 }
 
 .hero__bg {
@@ -284,10 +291,6 @@ img {
 }
 
 @media only screen and (max-device-width: 480px) {
-  .what-you-get__subtitle {
-    margin-left: 5%;
-  }
-
   .what-you-get__cards {
     flex-direction: column;
   }
@@ -367,17 +370,6 @@ img {
   height: fit-content;
   background-size: 100% 100%;
   justify-content: center;
-}
-
-.our-process__title {
-  padding-top: 160px;
-  text-align: center;
-}
-
-@media only screen and (max-device-width: 480px) {
-  .our-process__title {
-    font-size: 24px;
-  }
 }
 
 .our-process__subtitle {
@@ -503,15 +495,6 @@ img {
   text-align: center;
 }
 
-.brands__title {
-  text-transform: uppercase;
-  color: #00a077;
-  font-size: 12px;
-  line-height: 122%;
-  opacity: 0.5;
-  margin-bottom: 24px;
-}
-
 .brands__subtitle {
   color: #3b3e43;
   font-weight: 500;
@@ -543,10 +526,6 @@ img {
 }
 
 @media only screen and (max-device-width: 480px) {
-  .brands__title {
-    font-size: 24px;
-  }
-
   .brands__footer-text {
     font-size: 24px;
     width: 600px;
@@ -576,12 +555,6 @@ img {
   gap: 20px;
 }
 
-.start-working__title {
-  text-transform: uppercase;
-  opacity: 0.5;
-  font-size: 12px;
-}
-
 .start-working__subtitle {
   font-weight: 500;
   font-size: 48px;
@@ -601,14 +574,11 @@ img {
 }
 
 @media only screen and (max-device-width: 480px) {
-  .start-working__title {
-    font-size: 24px;
-  }
-
   .start-working__left-right {
     flex-direction: column-reverse;
     gap: 20px;
   }
+}
 
   .start-working__left {
     align-items: center;

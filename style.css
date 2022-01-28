@@ -141,8 +141,9 @@ img {
 .hero__bg {
   background: url("img/hero/hero-back.png") no-repeat center center;
   padding: 264px 0;
-  height: 100%;
-  background-size: auto 100%;
+  height: fit-content;
+  background-size: 100% 100%;
+  justify-content: center;
 }
 
 .hero {
@@ -256,7 +257,7 @@ img {
 }
 
 .hero__image-block {
-  margin-top: -450px;
+  margin-top: -300px;
   width: 100%;
   display: flex;
   justify-content: center;
@@ -276,6 +277,7 @@ img {
   background: url("img/what-you-get/bg.png") no-repeat center center;
   height: fit-content;
   background-size: contain;
+  justify-content: center;
 }
 
 .what-you-get__subtitle {

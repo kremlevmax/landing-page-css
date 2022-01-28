@@ -138,9 +138,6 @@ img {
   line-height: 60px;
 }
 
-.subtitle__center {
-}
-
 .hero__bg {
   background: url("img/hero/hero-back.png") no-repeat center center;
   padding: 264px 0;
@@ -194,15 +191,19 @@ img {
 
 .button {
   background-color: #ffffff;
-  color: #57b3fe;
-  font-weight: 700;
   padding: 20px 50px;
   border-radius: 50px;
-  text-transform: uppercase;
   cursor: pointer;
-  min-width: 200px;
+  width: 192px;
+}
+
+.button__text {
+  font-weight: 700;
+  color: #57b3fe;
+  text-transform: uppercase;
   inline-size: 200px;
   white-space: nowrap;
+  min-width: 200px;
 }
 
 .button:hover {
@@ -249,14 +250,13 @@ img {
   }
 
   .button {
-    inline-size: 300px;
+    width: 300px;
     font-size: 30px;
   }
 }
 
 .hero__image-block {
-  margin-top: -40%;
-  margin-bottom: 5%;
+  margin-top: -450px;
   width: 100%;
   display: flex;
   justify-content: center;
@@ -374,9 +374,6 @@ img {
 
 .our-process__subtitle {
   padding-top: 14px;
-  font-size: 48px;
-  font-weight: 500;
-  line-height: 122%;
   text-align: center;
 }
 
@@ -496,10 +493,8 @@ img {
 }
 
 .brands__subtitle {
-  color: #3b3e43;
-  font-weight: 500;
-  font-size: 48px;
-  line-height: 122%;
+  width: 900px;
+  margin: 0 auto;
 }
 
 .brands__logos {
@@ -578,7 +573,6 @@ img {
     flex-direction: column-reverse;
     gap: 20px;
   }
-}
 
   .start-working__left {
     align-items: center;

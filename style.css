@@ -146,6 +146,12 @@ img {
   justify-content: center;
 }
 
+@media only screen and (max-device-width: 1023px) {
+  .hero__bg {
+    padding: 120px 0 264px;
+  }
+}
+
 .hero {
   position: relative;
 }
@@ -175,6 +181,7 @@ img {
   position: relative;
   display: inline;
   line-height: 40px;
+  transition: border-bottom 0.3s ease;
 }
 
 .navbar-items__item:hover {
@@ -183,7 +190,7 @@ img {
 }
 
 .navbar-items {
-  font-size: 80%;
+  font-size: 100%;
 }
 
 .navbar-items__item:not(:last-child) {
@@ -196,6 +203,7 @@ img {
   border-radius: 50px;
   cursor: pointer;
   width: 192px;
+  transition: box-shadow 0.3s ease;
 }
 
 .button__text {
@@ -211,15 +219,50 @@ img {
   box-shadow: rgba(255, 254, 254, 0.297) 0px 7px 29px 0px;
 }
 
-@media only screen and (max-device-width: 480px) {
+.hero__burger-lines-check {
+  display: none;
+}
+.hero__burger-lines {
+  display: none;
+}
+
+.hero__burger-line {
+  display: none;
+}
+
+@media only screen and (max-device-width: 912px) {
   .navbar__button {
     display: none;
   }
 
   .navbar-items {
-    font-size: 150%;
-    display: grid;
-    grid-template-columns: auto auto auto;
+    position: absolute;
+    top: -100px;
+    left: 0;
+    width: 200px;
+    padding: 50px;
+    padding-top: 125px;
+    background: #ededed;
+    list-style-type: none;
+    transform-origin: 0% 0%;
+    transform: translateX(-100%);
+    transition: transform 0.5s ease-in-out;
+  }
+
+  .hero__burger-lines {
+    display: block;
+    position: absolute;
+    top: 50px;
+    left: 30px;
+  }
+
+  .hero__burger-line {
+    display: block;
+    width: 33px;
+    height: 4px;
+    margin-bottom: 5px;
+    background: #cdcdcd;
+    border-radius: 3px;
   }
 }
 
@@ -249,7 +292,7 @@ img {
 
 @media only screen and (max-device-width: 480px) {
   .hero_button {
-    margin: 41 auto 10vh;
+    margin: 41 auto 8vh;
   }
 }
 

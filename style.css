@@ -294,16 +294,33 @@ img {
     transform: translateX(0);
   }
 
-  .hero__burger-lines-check:checked ~ .hero__burger-lines .hero__burger-line {
-    background-color: #57b3fe;
-    transform: rotate(45deg) translate(-2px, -1px);
+  .hero__burger-lines-check:checked
+    ~ .hero__burger-lines
+    .hero__burger-line:nth-last-child(3) {
+    transform: rotate(40deg);
+    width: 60px;
   }
 
   .hero__burger-lines-check:checked
     ~ .hero__burger-lines
-    .hero__burger-line:nth-last-child(3) {
+    .hero__burger-line:nth-last-child(2) {
     opacity: 0;
-    transform: rotate(0deg) scale(0.2, 0.2);
+  }
+
+  .hero__burger-lines-check:checked
+    ~ .hero__burger-lines
+    .hero__burger-line:nth-last-child(1) {
+    width: 58px;
+    transform: rotate(-45deg) translate(-4px, -1px);
+  }
+
+  .hero__burger-lines-check:checked
+    ~ .hero__burger-lines
+    .hero__burger-line:nth-last-child(1) {
+  }
+
+  .hero__burger-lines-check:checked ~ .hero__burger-lines .hero__burger-line {
+    background-color: #57b3fe;
   }
 }
 

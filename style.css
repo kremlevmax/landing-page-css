@@ -399,7 +399,7 @@ img {
   display: flex;
   gap: 24px;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: space-evenly;
 }
 
 @media only screen and (max-device-width: 480px) {
@@ -433,6 +433,30 @@ img {
   align-items: center;
   border-radius: 10px;
   margin-bottom: 15px;
+}
+
+#card__icon-grow {
+  background-color: #ffe7db;
+}
+
+#card__icon-sales {
+  background-color: #e7f2ef;
+}
+
+#card__icon-expert {
+  background-color: #faf3d8;
+}
+
+#card__icon-ux {
+  background-color: #c0f2ef;
+}
+
+#card__icon-audit {
+  background-color: #ede7f2;
+}
+
+#card__icon-data {
+  background-color: #d8f0fa;
 }
 
 .card__icon_pic {
@@ -522,7 +546,6 @@ img {
 .our_process__cards {
   display: flex;
   flex-direction: column;
-  gap: 40px;
 }
 
 .our_process__card {
@@ -531,6 +554,19 @@ img {
   border-radius: 15px;
   display: flex;
   gap: 68px;
+}
+
+.our_process_cards__between_card {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  height: 40px;
+}
+
+.our_process_cards__border_div {
+  border-right: 3px dotted rgb(255, 255, 255, 0.8);
+  width: 50%;
+  border-opacity: 0.8;
 }
 
 .our_process__card_image {
@@ -543,11 +579,13 @@ img {
 
 .our_process__card_text {
   width: 60%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .our_process__card_icon {
-  margin-top: 36px;
-  margin-bottom: 24px;
+  margin-bottom: 20px;
   width: 40px;
   height: 40px;
   display: flex;
@@ -556,8 +594,20 @@ img {
   border-radius: 10px;
 }
 
+#our_process__card_icon-data_tracking {
+  background-color: #e9e5ff;
+}
+
+#our_process__card_icon-business_audit {
+  background-color: #dae6ff;
+}
+
+#our_process__card_icon-results {
+  background-color: #ceedff;
+}
+
 .our_process__card_title {
-  margin-bottom: 12px;
+  margin-bottom: 15px;
 }
 
 .our_process__card_title_text {

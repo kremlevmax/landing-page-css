@@ -525,7 +525,7 @@ img {
   padding-top: 24px;
   margin: 0 auto;
   text-align: center;
-  width: 720px;
+  max-width: 720px;
   margin-bottom: 32px;
 }
 
@@ -566,7 +566,6 @@ img {
 .our_process_cards__border_div {
   border-right: 3px dotted rgb(255, 255, 255, 0.8);
   width: 50%;
-  border-opacity: 0.8;
 }
 
 .our_process__card_image {
@@ -671,7 +670,7 @@ img {
 }
 
 .brands__subtitle {
-  width: 900px;
+  max-width: 900px;
   margin: 0 auto;
 }
 
@@ -687,7 +686,12 @@ img {
   display: flex;
   justify-content: center;
   align-items: center;
-  min-width: 5%;
+  min-width: 16%;
+  max-width: 16%;
+}
+
+.brands__logo_png {
+  width: 100%;
 }
 
 .brands__footer {

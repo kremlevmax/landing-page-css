@@ -213,6 +213,7 @@ img {
   transition: 0.5s;
   border-bottom: 2px solid rgb(255, 255, 255, 0);
   cursor: pointer;
+  color: #57b3fe;
 }
 
 .navbar_items__link:hover {

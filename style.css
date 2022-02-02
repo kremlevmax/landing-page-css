@@ -153,7 +153,7 @@ img {
 
 @media only screen and (min-device-width: 913px) {
   .hero__bg {
-    padding: 120px 0 264px;
+    padding: 120px 0 364px;
   }
 }
 
@@ -219,6 +219,7 @@ img {
   transition: 0.5s;
   border-bottom: 2px solid rgb(255, 255, 255, 0);
   cursor: pointer;
+  color: rgba(87, 179, 254, 1);
 }
 
 .navbar_items__link:hover {

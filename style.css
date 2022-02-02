@@ -144,17 +144,11 @@ img {
 
 .hero__bg {
   background: url("img/hero/hero-back.png") no-repeat center center;
-  padding: 264px 0 200px;
+  padding: 224px 0 284px;
 
   height: fit-content;
   background-size: 100% 100%;
   justify-content: center;
-}
-
-@media only screen and (min-device-width: 913px) and (max-device-width: 1599px) {
-  .hero__bg {
-    padding: 120px 0 364px;
-  }
 }
 
 .hero {
@@ -385,6 +379,10 @@ img {
 @media only screen and (max-device-width: 480px) {
   .hero_button {
     margin: 41 auto 8vh;
+  }
+
+  .hero__bg {
+    padding: 244px 0 284px;
   }
 }
 

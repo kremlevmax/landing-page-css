@@ -211,14 +211,18 @@ img {
   white-space: nowrap;
   position: relative;
   display: inline;
-  line-height: 40px;
-  transition: border-bottom 0.3s ease;
-  border-bottom: 4px solid rgb(255, 255, 255, 0);
+}
+
+.navbar_items__link {
+  line-height: 45px;
+  transition-timing-function: ease-out;
+  transition: 0.5s;
+  border-bottom: 2px solid rgb(255, 255, 255, 0);
   cursor: pointer;
 }
 
-.navbar_items__item:hover {
-  border-bottom: 4px solid #ffffff;
+.navbar_items__link:hover {
+  border-bottom: 2px solid #ffffff;
   text-shadow: 2px 4px 3px rgba(255, 255, 255, 0.3);
 }
 
@@ -836,10 +840,15 @@ img {
 
 .footer__link {
   cursor: pointer;
+  border-bottom: 2px solid rgb(255, 255, 255, 0);
+  transition-timing-function: ease-out;
+  transition: 0.5s;
+  cursor: pointer;
 }
 
 .footer__link:hover {
   text-shadow: 2px 4px 3px rgba(255, 255, 255, 0.3);
+  border-bottom: 2px solid rgb(255, 255, 255, 1);
 }
 
 .footer__social_media_links {
@@ -847,6 +856,14 @@ img {
   justify-content: space-between;
   align-items: center;
   width: 100px;
+}
+
+.footer__social-media-link {
+  cursor: pointer;
+}
+
+.footer__social-media-link-logo:hover {
+  text-shadow: 2px 4px 3px rgba(255, 255, 255, 0.3);
 }
 
 .footer__credentials {
@@ -868,4 +885,9 @@ img {
 
 .footer__privacy_link {
   opacity: 0.8;
+  cursor: pointer;
+}
+
+.footer__privacy_link:hover {
+  text-shadow: 2px 4px 3px rgba(255, 255, 255, 0.3);
 }

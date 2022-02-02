@@ -384,9 +384,11 @@ img {
   .hero_button {
     margin: 41 auto 8vh;
   }
+}
 
+@media screen and (max-device-width: 1309px) {
   .hero__bg {
-    padding: 244px 0 284px;
+    padding: 150px 0 284px;
   }
 }
 

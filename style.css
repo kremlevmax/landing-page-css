@@ -144,14 +144,14 @@ img {
 
 .hero__bg {
   background: url("img/hero/hero-back.png") no-repeat center center;
-  padding: 264px 0;
+  padding: 264px 0 200px;
 
   height: fit-content;
   background-size: 100% 100%;
   justify-content: center;
 }
 
-@media only screen and (min-device-width: 913px) {
+@media only screen and (min-device-width: 913px) and (max-device-width: 1599px) {
   .hero__bg {
     padding: 120px 0 364px;
   }
@@ -219,7 +219,6 @@ img {
   transition: 0.5s;
   border-bottom: 2px solid rgb(255, 255, 255, 0);
   cursor: pointer;
-  color: rgba(87, 179, 254, 1);
 }
 
 .navbar_items__link:hover {
